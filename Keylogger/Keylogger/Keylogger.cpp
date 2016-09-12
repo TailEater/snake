@@ -6,14 +6,12 @@ using namespace std;
 
 int main(int argv, char* argc[])
 {
-	/*ShowWindow(GetConsoleWindow(), SW_HIDE);
+	ShowWindow(GetConsoleWindow(), SW_HIDE);
 	MSG Msg;
 	while (GetMessage(&Msg, NULL, 0, 0))
 	{
 		TranslateMessage(&Msg);
 		DispatchMessage(&Msg);
-	}*/
-	string h = Helper::DateTime().GetDateTimeString();
-	cout << h << endl;
+	}
 	return 0;
 }

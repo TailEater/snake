@@ -150,6 +150,7 @@
     <ClCompile Include="Keylogger.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Base64.h" />
     <ClInclude Include="Helper.h" />
     <ClInclude Include="KeyConstants.h" />
   </ItemGroup>

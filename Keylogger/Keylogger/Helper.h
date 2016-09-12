@@ -17,12 +17,12 @@ namespace Helper
 			time(&ms);
 			struct tm info;
 			localtime_s(&info, &ms);
-			int dt_year = 1900 + info.tm_year;
-			int dt_month = info.tm_mon + 1;
-			int dt_day = info.tm_mday;
-			int dt_hour = info.tm_hour;
-			int dt_minute = info.tm_min;
-			int dt_second = info.tm_sec;
+			dt_year = 1900 + info.tm_year;
+			dt_month = info.tm_mon + 1;
+			dt_day = info.tm_mday;
+			dt_hour = info.tm_hour;
+			dt_minute = info.tm_min;
+			dt_second = info.tm_sec;
 		}
 		DateTime(int dt_year, int dt_month, int dt_day, int dt_hour, int dt_minute, int dt_second)
 			: dt_year(dt_year), dt_month(dt_month), dt_day(dt_day),
