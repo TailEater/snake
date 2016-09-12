@@ -146,7 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Helper.cpp" />
     <ClCompile Include="KeyConstants.cpp" />
     <ClCompile Include="Keylogger.cpp" />
   </ItemGroup>

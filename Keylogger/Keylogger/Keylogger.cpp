@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <windows.h>
 #include "Helper.h"
 using namespace std;
@@ -12,6 +13,7 @@ int main(int argv, char* argc[])
 		TranslateMessage(&Msg);
 		DispatchMessage(&Msg);
 	}*/
-
+	string h = Helper::DateTime().GetDateTimeString();
+	cout << h << endl;
 	return 0;
 }
