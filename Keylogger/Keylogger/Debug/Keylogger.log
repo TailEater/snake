@@ -1,3 +1,4 @@
 ﻿  Keylogger.cpp
+d:\documents\github\snake\keylogger\keylogger\io.h(19): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
   Keylogger.vcxproj -> D:\Documents\GitHub\snake\Keylogger\Debug\Keylogger.exe
   Keylogger.vcxproj -> D:\Documents\GitHub\snake\Keylogger\Debug\Keylogger.pdb (Full PDB)
