@@ -1,7 +1,7 @@
 #pragma once
 #include <stdlib.h>
-#include <windows.h>
 #include <string>
+#include <afx.h>
 #include <fstream>
 #include "Helper.h"
 #include "Base64.h"
@@ -16,8 +16,8 @@ namespace IO
 	}
 	bool MkOneDir(std::string path)
 	{
-		return (bool)CreateDirectory(path.c_str(), NULL) ||
-			GetLastError() == ERROR_ALREADY_EXISTS;
+		return static_cast<bool>(CreateDirectory(path.c_str(), NULL) ||
+			GetLastError() == ERROR_ALREADY_EXISTS);
 	}
 	bool MkDir(std::string path)
 	{

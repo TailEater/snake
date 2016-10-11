@@ -1,4 +1,7 @@
 ﻿  Keylogger.cpp
-d:\documents\github\snake\keylogger\keylogger\io.h(19): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: see declaration of 'MBCS_Support_Deprecated_In_MFC'
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+d:\documents\github\snake\keylogger\keylogger\keybhook.h(81): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
   Keylogger.vcxproj -> D:\Documents\GitHub\snake\Keylogger\Debug\Keylogger.exe
   Keylogger.vcxproj -> D:\Documents\GitHub\snake\Keylogger\Debug\Keylogger.pdb (Full PDB)

@@ -21,6 +21,12 @@
     <ClCompile Include="KeyConstants.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="KeyConstants.h">
@@ -38,5 +44,25 @@
     <ClInclude Include="Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SendMail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeybHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="easendmailobj.tlh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="easendmailobj.tli">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

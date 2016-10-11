@@ -1,0 +1,16 @@
+[11.10.2016 10:29:17]
+Hook started... Timer started
+[11.10.2016 10:29:49]
+Mail was not send! Error code: 0
+[11.10.2016 10:30:21]
+Mail was not send! Error code: 0
+[11.10.2016 10:30:53]
+Mail was not send! Error code: 0
+[11.10.2016 10:31:24]
+Mail was not send! Error code: 0
+[11.10.2016 10:31:56]
+Mail was not send! Error code: 0
+[11.10.2016 10:32:28]
+Mail was not send! Error code: 0
+[11.10.2016 10:33:00]
+Mail was not send! Error code: 0
